@@ -5,6 +5,8 @@
 This is for the Grab Coke project.
 Code necessary will be included in the git repository
 
+For making a complete package of the learning ros package, all the files is kept here to reduce any possible error when taking off uneccessary files
+
 Please click for wiki to have more detail description
 
 **Table of Contents**
