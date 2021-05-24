@@ -5,6 +5,8 @@
 This is for the Grab Coke project.
 Code necessary will be included in the git repository
 
+Please click for wiki to have more detail description
+
 **Table of Contents**
 * Environment setup
 * File changed
