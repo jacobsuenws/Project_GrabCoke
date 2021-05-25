@@ -38,11 +38,12 @@ The detailed change can be found in the file or in the report
 2. add_coke_can and add_table_and_coke is added as launch file
 3. reset_coke_state.cpp is added into package example_gazebo_set_state
 4. baxter_on_mobot.launch is modifed to add coke can in to the environment
-5. acquire_block_client.cpp is modified to change the objectidcodes to COKE_CAN_UPRIGHT
-6. fetch_and_stack_client.cpp is modified by changing theobjectidcodes=COKE_CAN_UPRIGHT
-7. right_end_effector.xarco is modified to extend the gripper width so the it can grasp the coke can
-8. example_object_grabber_action_client.cpp is modified to perform the object in a better orientation
-9. rethink_gripper_rt_manip_fncs.cppismodifiedtochange the orientation of the gripper and perform side approach
+5. object_finder_as.cpp is modified, need further modification after copying the code in bool ObjectFinder::find_toy_block(float surface_height, geometry_msgs::PoseStamped &object_pose) 
+6. acquire_block_client.cpp is modified to change the objectidcodes to COKE_CAN_UPRIGHT
+7. fetch_and_stack_client.cpp is modified by changing theobjectidcodes=COKE_CAN_UPRIGHT
+8. right_end_effector.xarco is modified to extend the gripper width so the it can grasp the coke can
+9. example_object_grabber_action_client.cpp is modified to perform the object in a better orientation
+10. rethink_gripper_rt_manip_fncs.cppismodifiedtochange the orientation of the gripper and perform side approach
 
 ## Simulation
 
