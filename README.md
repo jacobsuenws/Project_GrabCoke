@@ -27,10 +27,10 @@ Please click for wiki to have more detail description
 
 ### Environment setup
 1. Create  a  project  workspace  folder  call  xxx_ws  (xxx can be anyname without any symbol, for the simulation project_ws is used)
-2. Make a folder call src inside the projectws
+2. Make a folder call src inside the project_ws
 3. `Catkin_make` in the project_ws
 5. Move the git-cloned project into src folder
-6. catkin_make again, install catkin_simple if necessary or errorrelate to catkinsimple occur
+6. catkin_make again, install catkin_simple if necessary or error relate to catkinsimple occur
 
 ## File changed
 The detailed change can be found in the file or in the report
