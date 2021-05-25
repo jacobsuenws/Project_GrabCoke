@@ -59,7 +59,7 @@ source project_ws/devel/setup.bash
 ```
 3. Type "roscore" to start ROS
 ```
-roscor
+roscore
 ```
 4. Open new terminal, type "roslaunch_baxter_varation baxter_on_mobot.launch" to start the gazebo with baxter, coke cans, tables, and the environment
 ```
